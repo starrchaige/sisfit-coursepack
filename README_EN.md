@@ -54,6 +54,11 @@ Minimum expected files:
 - `boundary_checklist.md`
 - `xiaohongshu_post.md`
 
+You can also download the packaged release directly:
+
+- Release page: <https://github.com/starrchaige/sisfit-coursepack/releases/tag/v0.2.1>
+- Direct download: <https://github.com/starrchaige/sisfit-coursepack/releases/download/v0.2.1/sisfit-coursepack_v0.2.1.zip>
+
 ## When To Invoke It
 
 Use this skill when the user wants to:
@@ -144,6 +149,10 @@ This is now a public release suitable for:
 - small-scale testing and iteration
 
 See [CHANGELOG.md](./CHANGELOG.md) for release notes.
+
+The latest packaged release is available on GitHub Releases:
+
+- [v0.2.1 Release](https://github.com/starrchaige/sisfit-coursepack/releases/tag/v0.2.1)
 
 ## Questions and Feedback
 

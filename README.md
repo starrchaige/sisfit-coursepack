@@ -57,6 +57,11 @@ Contributing guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 - `boundary_checklist.md`
 - `xiaohongshu_post.md`
 
+也可以直接下载已打包发布的版本：
+
+- Release 页面：<https://github.com/starrchaige/sisfit-coursepack/releases/tag/v0.2.1>
+- 直接下载：<https://github.com/starrchaige/sisfit-coursepack/releases/download/v0.2.1/sisfit-coursepack_v0.2.1.zip>
+
 ## 调用方式
 
 当你要做以下任务时调用这个 Skill：
@@ -167,6 +172,10 @@ Skill 支持 5 种输出模式：
 - 版本更新记录
 
 版本记录见 [CHANGELOG.md](./CHANGELOG.md)。
+
+最新发布包可从 GitHub Releases 获取：
+
+- [v0.2.1 Release](https://github.com/starrchaige/sisfit-coursepack/releases/tag/v0.2.1)
 
 ## 反馈与提问
 
