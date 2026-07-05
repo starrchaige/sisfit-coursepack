@@ -67,7 +67,7 @@ sisfit-coursepack/
 下面的命令假设你当前就在 zip 所在目录，并且 zip 文件名为：
 
 ```text
-sisfit-coursepack_v0.2.0.zip
+sisfit-coursepack_v0.2.1.zip
 ```
 
 命令逻辑是：
@@ -81,25 +81,25 @@ sisfit-coursepack_v0.2.0.zip
 ### Trae
 
 ```bash
-ZIP="sisfit-coursepack_v0.2.0.zip"; TARGET="$HOME/.trae/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
+ZIP="sisfit-coursepack_v0.2.1.zip"; TARGET="$HOME/.trae/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
 ```
 
 ### Claude Code
 
 ```bash
-ZIP="sisfit-coursepack_v0.2.0.zip"; TARGET="$HOME/.claude/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
+ZIP="sisfit-coursepack_v0.2.1.zip"; TARGET="$HOME/.claude/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
 ```
 
 ### Codex
 
 ```bash
-ZIP="sisfit-coursepack_v0.2.0.zip"; TARGET="$HOME/.codex/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
+ZIP="sisfit-coursepack_v0.2.1.zip"; TARGET="$HOME/.codex/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
 ```
 
 ### Hermes
 
 ```bash
-ZIP="sisfit-coursepack_v0.2.0.zip"; TARGET="$HOME/.hermes/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
+ZIP="sisfit-coursepack_v0.2.1.zip"; TARGET="$HOME/.hermes/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
 ```
 
 如果你使用 profile 目录，把 `TARGET="$HOME/.hermes/skills"` 改成：
@@ -111,7 +111,7 @@ TARGET="$HOME/.hermes/profiles/<profile>/skills"
 ### OpenClaw
 
 ```bash
-ZIP="sisfit-coursepack_v0.2.0.zip"; TARGET="$HOME/.openclaw/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
+ZIP="sisfit-coursepack_v0.2.1.zip"; TARGET="$HOME/.openclaw/skills"; TMPDIR="$(mktemp -d)" && unzip -q "$ZIP" -d "$TMPDIR" && mkdir -p "$TARGET" && rm -rf "$TARGET/sisfit-coursepack" && cp -R "$TMPDIR/sisfit-coursepack" "$TARGET/" && rm -rf "$TMPDIR"
 ```
 
 ## 1. Trae
@@ -273,8 +273,8 @@ sed -n '1,12p' ~/.trae/skills/sisfit-coursepack/SKILL.md
 
 ```text
 name: "sisfit-coursepack"
-version: 0.2.0
-status: public_skill_v0_2
+version: 0.2.1
+status: public_skill_v0_2_1
 ```
 
 ## 升级旧版本

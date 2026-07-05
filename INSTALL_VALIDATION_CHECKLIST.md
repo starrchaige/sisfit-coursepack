@@ -23,7 +23,7 @@
 
 在开始前，先确认以下事项：
 
-- [ ] 已拿到压缩包 `sisfit-coursepack_v0.2.0.zip` 或等价目录副本
+- [ ] 已拿到压缩包 `sisfit-coursepack_v0.2.1.zip` 或等价目录副本
 - [ ] 已确认压缩包解压后顶层目录为 `sisfit-coursepack/`
 - [ ] 已确认目录根部存在 `SKILL.md`
 - [ ] 已确认目录内存在 `README.md`、`INSTALL.md`、`examples.json`

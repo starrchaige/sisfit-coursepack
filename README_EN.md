@@ -134,8 +134,8 @@ See [examples.json](./examples.json). The current example set covers:
 
 ## Current Status
 
-Repository packaging version: `v0.2.0`  
-Core `SKILL.md` prompt version: `v0.2.0`
+Repository packaging version: `v0.2.1`
+Core `SKILL.md` prompt version: `v0.2.1`
 
 This is now a public release suitable for:
 

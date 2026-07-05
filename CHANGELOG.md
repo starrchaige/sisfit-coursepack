@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1] - 2026-07-05
+
+### Changed
+
+- Updated package and prompt metadata from `v0.2.0` to `v0.2.1`.
+- Renamed the public status marker to `public_skill_v0_2_1` to match the released package version.
+- Repacked local distribution zip files so they include the latest routing rules and `test-prompts.json`.
+
 ## [0.2.0] - 2026-07-05
 
 ### Changed
