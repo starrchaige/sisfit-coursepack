@@ -65,6 +65,7 @@ Contributing guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 - 把身体主题整理成可卖的课程结构
 - 输出主题课流程、口令和表达边界
 - 生成这个主题的小红书预热方向或销售页骨架
+- 只输出预热内容、销售页骨架或课程流程，而不是完整课包
 
 可直接使用类似表达：
 
@@ -86,9 +87,17 @@ Contributing guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 是否涉及特殊人群：
 ```
 
-## 输出内容
+## 输出模式
 
-Skill 默认输出以下 12 个部分：
+Skill 支持 5 种输出模式：
+
+1. `full_package`：完整主题课包骨架
+2. `class_flow_only`：只输出课程结构、流程、口令和边界
+3. `preheat_only`：只输出小红书 / 朋友圈 / 公众号预热内容
+4. `sales_page_only`：只输出销售页骨架
+5. `high_risk_boundary_only`：高风险输入时，只输出就医提醒、表达边界和主题重构建议
+
+默认情况下，当用户要的是完整主题课包时，`full_package` 会输出以下 12 个部分：
 
 1. 主题定位
 2. 适合人群
@@ -139,6 +148,7 @@ Skill 默认输出以下 12 个部分：
 - `INSTALL_VALIDATION_CHECKLIST.md`：异机安装与调用验证清单
 - `CONTRIBUTING.md`：贡献说明与边界约束
 - `examples.json`：示例输入与预期用途
+- `test-prompts.json`：回归测试用例
 - `boundary_checklist.md`：边界检查表
 - `xiaohongshu_post.md`：发布文案草稿
 

@@ -62,6 +62,7 @@ Use this skill when the user wants to:
 - turn a theme into a sellable course structure
 - draft flow, cueing, and wording boundaries for a class
 - create Xiaohongshu preheat directions or a sales page skeleton
+- get only preheat content, only a sales page, or only class flow instead of a full coursepack
 
 Example requests:
 
@@ -83,9 +84,17 @@ Existing movement or practice materials:
 Any special population involved:
 ```
 
-## Output Structure
+## Output Modes
 
-The skill is designed to output 12 sections:
+The skill supports 5 output modes:
+
+1. `full_package`: complete coursepack outline
+2. `class_flow_only`: class structure, timed flow, cueing, and boundary reminders only
+3. `preheat_only`: Xiaohongshu / Moments / WeChat preheat content only
+4. `sales_page_only`: sales-page structure only
+5. `high_risk_boundary_only`: medical-referral reminder, wording boundaries, and safer topic reframing only
+
+When the user wants a full coursepack, `full_package` outputs these 12 sections:
 
 1. Topic positioning
 2. Suitable audience
@@ -119,6 +128,7 @@ See [examples.json](./examples.json). The current example set covers:
 - `INSTALL_VALIDATION_CHECKLIST.md`: cross-machine installation and invocation checklist
 - `CONTRIBUTING.md`: contribution and safety guidance
 - `examples.json`: example inputs and expected use cases
+- `test-prompts.json`: regression test prompts
 - `boundary_checklist.md`: safety wording checklist
 - `xiaohongshu_post.md`: posting copy draft
 
