@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2026-07-05
+
+### Changed
+
+- Promoted `SKILL.md` from `v0.1.0` draft metadata to `v0.2.0` public release metadata.
+- Aligned repository release messaging across `README.md` and `README_EN.md`.
+
+### Added
+
+- Added `CONTRIBUTING.md` with contribution scope, safety boundaries, and PR guidance.
+
 ## [0.1.2] - 2026-07-05
 
 ### Added

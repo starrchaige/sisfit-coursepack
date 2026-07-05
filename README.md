@@ -3,6 +3,7 @@
 一个面向身体教育老师的中文 Skill，用于把身体主题整理成边界清晰、可交付、可销售的主题课包骨架。
 
 English version: [README_EN.md](./README_EN.md)
+Contributing guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 它解决什么问题
 
@@ -50,6 +51,8 @@ English version: [README_EN.md](./README_EN.md)
 
 - `SKILL.md`
 - `README.md`
+- `README_EN.md`
+- `CONTRIBUTING.md`
 - `examples.json`
 - `boundary_checklist.md`
 - `xiaohongshu_post.md`
@@ -131,15 +134,17 @@ Skill 默认输出以下 12 个部分：
 ## 文件说明
 
 - `SKILL.md`：Skill 主体提示词
+- `README_EN.md`：英文说明
+- `CONTRIBUTING.md`：贡献说明与边界约束
 - `examples.json`：示例输入与预期用途
 - `boundary_checklist.md`：边界检查表
 - `xiaohongshu_post.md`：发布文案草稿
 
 ## 当前状态
 
-当前仓库整理版本为 `v0.1.2`，其中 `SKILL.md` 主体提示词版本仍为 `v0.1.0`。当前定位是公开可查看的草稿版。它适合：
+当前仓库整理版本为 `v0.2.0`，`SKILL.md` 主体提示词版本也已更新为 `v0.2.0`。当前定位是公开发布版。它适合：
 
-- GitHub 公开展示
+- GitHub 公开展示与复用
 - 内部版本管理
 - 小范围试用和迭代
 

@@ -49,6 +49,7 @@ Minimum expected files:
 - `SKILL.md`
 - `README.md`
 - `README_EN.md`
+- `CONTRIBUTING.md`
 - `examples.json`
 - `boundary_checklist.md`
 - `xiaohongshu_post.md`
@@ -114,18 +115,19 @@ See [examples.json](./examples.json). The current example set covers:
 - `SKILL.md`: core prompt and behavioral rules
 - `README.md`: Chinese overview
 - `README_EN.md`: English overview
+- `CONTRIBUTING.md`: contribution and safety guidance
 - `examples.json`: example inputs and expected use cases
 - `boundary_checklist.md`: safety wording checklist
 - `xiaohongshu_post.md`: posting copy draft
 
 ## Current Status
 
-Repository packaging version: `v0.1.2`  
-Core `SKILL.md` prompt version: `v0.1.0`
+Repository packaging version: `v0.2.0`  
+Core `SKILL.md` prompt version: `v0.2.0`
 
-This is still a public draft suitable for:
+This is now a public release suitable for:
 
-- GitHub sharing
+- GitHub sharing and reuse
 - internal versioning
 - small-scale testing and iteration
 

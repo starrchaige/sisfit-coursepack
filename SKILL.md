@@ -5,8 +5,8 @@ description: "帮助身体教育老师生成边界清晰的主题课包骨架。
 
 # 身体教育主题课包生成器
 
-version: 0.1.0
-status: public_skill_draft
+version: 0.2.0
+status: public_skill_release
 owner: SISFIT
 language: zh-CN
 scope: health_education_coursepack_structure
