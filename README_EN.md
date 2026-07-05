@@ -133,6 +133,24 @@ This is now a public release suitable for:
 
 See [CHANGELOG.md](./CHANGELOG.md) for release notes.
 
+## Questions and Feedback
+
+This repository should use GitHub Discussions and Issues for different purposes:
+
+- usage questions, installation help, and setup discussion: use `Discussions`
+- bugs, doc fixes, and improvement requests: use `Issues`
+
+Why this split is useful:
+
+- usage questions are often conversational and do not always indicate a defect
+- bugs and improvement requests are easier to track when they stay in Issues
+- it keeps the repository cleaner by separating support from actionable work items
+
+If Discussions is enabled, a simple guideline on the repository home page is:
+
+- "Use Discussions for setup and usage questions."
+- "Use Issues for bugs and improvement requests."
+
 ## License
 
 This repository is licensed under the [MIT License](./LICENSE).

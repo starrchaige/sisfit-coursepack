@@ -156,6 +156,24 @@ Skill 默认输出以下 12 个部分：
 
 版本记录见 [CHANGELOG.md](./CHANGELOG.md)。
 
+## 反馈与提问
+
+建议这个仓库启用 GitHub Discussions，并采用下面的分流方式：
+
+- 使用问题、安装问题、调用方式讨论：走 `Discussions`
+- Bug、文档错误、改进建议：走 `Issues`
+
+推荐这样做的原因：
+
+- 使用问题通常需要来回交流，不一定是缺陷
+- Bug 和改进建议更适合被追踪、标记和关闭
+- 能把“提问”与“待修复事项”分开，仓库会更干净
+
+如果仓库已经开启 `Discussions`，可以在仓库首页引导用户：
+
+- “使用问题请发 Discussions”
+- “缺陷反馈和改进建议请提交 Issues”
+
 ## 许可
 
 本仓库采用 [MIT License](./LICENSE)。
