@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.2] - 2026-07-05
+
+### Added
+
+- Added `README_EN.md` for English-speaking GitHub readers.
+- Expanded `examples.json` to 10 examples with broader topic coverage.
+- Added cross-language README linking and clearer example coverage notes.
+
 ## [0.1.1] - 2026-07-05
 
 ### Added
