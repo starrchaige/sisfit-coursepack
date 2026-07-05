@@ -135,6 +135,8 @@ Skill 默认输出以下 12 个部分：
 
 - `SKILL.md`：Skill 主体提示词
 - `README_EN.md`：英文说明
+- `INSTALL.md`：安装说明
+- `INSTALL_VALIDATION_CHECKLIST.md`：异机安装与调用验证清单
 - `CONTRIBUTING.md`：贡献说明与边界约束
 - `examples.json`：示例输入与预期用途
 - `boundary_checklist.md`：边界检查表

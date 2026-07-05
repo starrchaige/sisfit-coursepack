@@ -115,6 +115,8 @@ See [examples.json](./examples.json). The current example set covers:
 - `SKILL.md`: core prompt and behavioral rules
 - `README.md`: Chinese overview
 - `README_EN.md`: English overview
+- `INSTALL.md`: installation guide
+- `INSTALL_VALIDATION_CHECKLIST.md`: cross-machine installation and invocation checklist
 - `CONTRIBUTING.md`: contribution and safety guidance
 - `examples.json`: example inputs and expected use cases
 - `boundary_checklist.md`: safety wording checklist

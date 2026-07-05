@@ -2,6 +2,10 @@
 
 本文档说明如何在其他电脑上安装 `sisfit-coursepack`。
 
+如果你要做异机验收，而不只是完成复制安装，请配合查看：
+
+- [INSTALL_VALIDATION_CHECKLIST.md](./INSTALL_VALIDATION_CHECKLIST.md)
+
 ## 压缩包内容
 
 解压后你应该看到：
@@ -16,6 +20,7 @@ sisfit-coursepack/
 - `README.md`
 - `README_EN.md`
 - `INSTALL.md`
+- `INSTALL_VALIDATION_CHECKLIST.md`
 - `CONTRIBUTING.md`
 - `examples.json`
 - `boundary_checklist.md`
